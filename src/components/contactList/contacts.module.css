@@ -1,0 +1,17 @@
+.contactLink {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  font-size: 16px;
+  color: #000000;
+}
+
+.contactList {
+  list-style: none;
+  padding-block: 4px;
+}
+
+.container {
+  margin-top: 16px;
+}

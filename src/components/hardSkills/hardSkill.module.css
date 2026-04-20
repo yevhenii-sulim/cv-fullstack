@@ -1,0 +1,8 @@
+.skill {
+  padding-block: 4px;
+  margin: 0;
+  list-style: none;
+}
+.list {
+  columns: 3;
+}

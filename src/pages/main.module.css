@@ -1,0 +1,7 @@
+.container {
+  margin-top: 32px;
+}
+.wrapper {
+  max-width: 800px;
+  margin: auto;
+}

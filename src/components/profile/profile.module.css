@@ -1,0 +1,15 @@
+.special {
+  font-size: 1.5rem;
+  text-transform: lowercase;
+}
+
+.img {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  img {
+    height: 100%;
+    border-radius: 30px;
+  }
+}
