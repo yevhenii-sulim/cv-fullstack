@@ -10,7 +10,7 @@ export default function Profile() {
         <span className={css.special}>fullstack developer</span>
       </h1>
       <div className={css.img}>
-        <img src='/img.png' alt='User profile' />
+        <img src={`${import.meta.env.BASE_URL}img.png`} alt='User profile' />
         <ContactList />
       </div>
     </div>
