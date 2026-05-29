@@ -2,6 +2,7 @@
   margin-top: 32px;
 }
 .wrapper {
+  padding-block: 20px;
   max-width: 800px;
   margin: auto;
 }
