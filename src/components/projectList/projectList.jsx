@@ -26,11 +26,16 @@ const projects = [
     link: 'https://github.com/yevhenii-sulim/news-api',
     text: 'Built a backend service that fetches news from RSS feeds via CLI commands and stores them in a database. Implemented a REST API to serve news to the client, along with automated cleanup of outdated records. Profiled and optimized the application for performance.',
   },
+  {
+    title: 'Inkluvo Fullstack',
+    link: 'https://github.com/yevhenii-sulim/inkluvo-api',
+    text: 'Developed a fullstack accessibility map application that helps users find and evaluate accessible places. Built the mobile client with React Native and Mapbox, implemented interactive map markers, place details, forms for adding accessibility data, comments, and user state management. Developed the backend API with NestJS, PostgreSQL, and Drizzle ORM, including authentication, place management, comments, complaints, and automatic accessibility score calculation.',
+  },
 ];
 
 export default function ProjectList() {
   return (
-    <div className='box'>
+    <div className={`box ${css.projects}`}>
       <h2 className='title-box'>Project experience</h2>
       <ul>
         {projects.map(({title, link, text}) => (
