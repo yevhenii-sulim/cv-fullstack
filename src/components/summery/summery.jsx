@@ -6,23 +6,23 @@ export default function Summery() {
       <h2 className='title-box'>Summary</h2>
       <ul>
         <li className={`text ${css.list}`}>
-          Backend Developer with hands-on experience building server-side
-          applications through personal projects. I focus on creating reliable
-          APIs, working with databases, and implementing clean backend
-          architecture.
+          Fullstack Developer with 2+ years of hands-on experience gained
+          through team-based development, collaborative projects, and personal
+          products. I work with React, React Native, TypeScript, Node.js,
+          NestJS, PostgreSQL, and modern frontend and backend technologies.
         </li>
         <li className={`text ${css.list}`}>
-          I have experience designing RESTful services, managing data
-          persistence, and writing efficient server logic. I enjoy structuring
-          code for maintainability and building backends that integrate smoothly
-          with frontend applications.
+          I have experience building responsive web interfaces, mobile
+          applications, REST APIs, authentication systems, database schemas, and
+          business logic. I am comfortable working with existing codebases,
+          integrating frontend applications with backend services, and
+          developing features across the full application stack.
         </li>
         <li className={`text ${css.list}`}>
-          I learn new technologies quickly and pay close attention to code
-          quality, security, and performance. While my team experience comes
-          from frontend development, I bring strong collaboration skills and I'm
-          eager to apply them as I grow into backend roles through real-world
-          challenges.
+          I focus on maintainable architecture, reusable components, clean code,
+          security, and performance. I learn new technologies quickly, work
+          effectively both independently and within a team, and enjoy building
+          practical products that solve real-world problems.
         </li>
       </ul>
     </div>
