@@ -8,6 +8,9 @@
 .list {
   list-style: none;
 }
+.link {
+  text-decoration: none;
+}
 /* @media print {
   .projects {
     break-before: page;

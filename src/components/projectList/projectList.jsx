@@ -24,7 +24,7 @@ const projects = [
   },
   {
     title: 'Inkluvo Backend',
-    link: 'https://github.com/yevhenii-sulim/inkluvo-api',
+    link: 'Private repo',
     description: {
       text:
         'Developed the backend API for a mobile accessibility map application that helps users find and evaluate accessible places.\n\n' +
@@ -69,7 +69,7 @@ const projects = [
   },
   {
     title: 'Inkluvo Mobile App',
-    link: 'https://github.com/yevhenii-sulim/inkluvo',
+    link: 'https://inkluvo.com.ua/',
     description: {
       text:
         'Built the frontend of a mobile accessibility map application for people who use wheelchairs. Implemented an interactive Mapbox map with custom markers, clustering, place selection, place details screens, accessibility forms, comments, photo upload flow, and user location handling.\n\n' +
@@ -89,8 +89,8 @@ export default function ProjectList() {
           <li className={css.list}>
             <h3 class={css.project}>{title}</h3>
             <a
-              href='link'
-              className='text'
+              href={link}
+              className={`${css.link} text`}
               target='_blank'
               rel='noopener noreferrer'
             >
